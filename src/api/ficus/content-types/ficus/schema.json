@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "ficuses",
+  "info": {
+    "singularName": "ficus",
+    "pluralName": "ficuses",
+    "displayName": "Ficus"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "flower_pots": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::flower-pot.flower-pot"
+    }
+  }
+}

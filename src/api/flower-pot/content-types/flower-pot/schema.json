@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "flower_pots",
+  "info": {
+    "singularName": "flower-pot",
+    "pluralName": "flower-pots",
+    "displayName": "Flower-pots",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "count": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "float"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "sale_banners",
+  "info": {
+    "singularName": "sale-banner",
+    "pluralName": "sale-banners",
+    "displayName": "Sale-banner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "valid_until": {
+      "type": "date"
+    }
+  }
+}
